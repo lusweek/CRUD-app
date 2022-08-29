@@ -1,0 +1,36 @@
+
+För att starta:
+
+    Frontend:
+$ cd client
+$ npm start
+
+
+    Backend:
+$ cd server
+$ npm run devStart
+
+
+----------------------------------------------------------------
+
+
+    Dependensies / setup:
+
+$ cd server
+$ npx create-react-app .
+$ npm i body-parser cors express mysql nodemon
+
+
+    I package.json under scripts:
+
+"start": "node index.js",
+"devStart": "nodemon index.js"
+
+
+------------------------------------------------
+
+
+Den ville inte så skrev detta:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
